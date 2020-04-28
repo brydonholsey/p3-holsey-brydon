@@ -8,7 +8,6 @@ class App {
 
     renderTemplate() {
         const template = `
-        <div>
         <header>
                 <h1 id="headerTitle"></h1>
                 <h2 id="headerSub"></h2>
@@ -29,11 +28,9 @@ class App {
                 <h3 id="footerTitle"></h3>
                 <p id="footerSub"></p>
             </footer>
-            </div>
             `;
-            
+            document.body.innerHTML = template;
 
     }
 };
 
-document.body.innerHTML = template;
