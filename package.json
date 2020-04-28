@@ -6,6 +6,7 @@
   "scripts": {
     "watch": "webpack --watch",
     "build": "webpack --mode production",
+    "build": "babel src -d lib",
     "start": "webpack-dev-server --mode development --open"
   },
   "repository": {
