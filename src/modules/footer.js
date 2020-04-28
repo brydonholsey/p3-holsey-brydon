@@ -5,4 +5,4 @@ class Footer {
     }
 }
 
-export const footerContent = new Footer ('For lunch you will be having:',)
+export const footerContent = new Footer ('For lunch you will be having:', )
