@@ -32,4 +32,4 @@ class App {
     }
 };
 
-document.innerHTML = template;
+document.body.innerHTML = template;
