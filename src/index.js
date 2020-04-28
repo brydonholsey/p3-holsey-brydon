@@ -1,6 +1,6 @@
 import './main.css';
 import { headerContent } from './modules/header.js'
-import { lunchArray } from './modules/lunch-generator.js'
+// import { lunchArray } from './modules/lunch-generator.js'
 import { footerContent } from './modules/footer.js'
 
 class App {

@@ -7,8 +7,8 @@ export class Footer {
     }
 }
 
-let footerLunch = (lunchArray)
+let footerLunch = (lunchArray[0]);
 
-console.log(footerLunch)
+console.log(footerLunch);
 
-export const footerContent = new Footer ('For lunch you will be having:', )
+export const footerContent = new Footer ('For lunch you will be having:', );
