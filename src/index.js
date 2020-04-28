@@ -30,4 +30,6 @@ class App {
         </div>
 
     }
-}
+};
+
+document.innerHTML = template;
