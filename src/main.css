@@ -1,0 +1,24 @@
+/* fonts 
+font-family: 'Lobster', cursive;
+font-family: 'Montserrat', sans-serif;
+*/
+
+/* colors 
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+header {
+    height: 20%;
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}
