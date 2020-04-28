@@ -1,5 +1,5 @@
 import './main.css';
-import '/modules/header.js';
+import './modules/header.js';
 
 class App {
 
