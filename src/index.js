@@ -8,7 +8,7 @@ class App {
 
     renderTemplate() {
         const template = `
-        <header>
+            <header>
                 <h1 id="headerTitle"></h1>
                 <h2 id="headerSub"></h2>
             </header>
