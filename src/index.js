@@ -8,8 +8,8 @@ class App {
         const template = 
         <div>
             <header>
-                <h1>Are you hungry?</h1>
-                <h2>click "generate" below to create your lunch!</h2>
+                <h1 id="headerTitle"></h1>
+                <h2 id="headerSub"></h2>
             </header>
             <main>
                 <button id="generate-button">Generate</button>
@@ -24,8 +24,8 @@ class App {
                 </div>
             </main>
             <footer>
-                <h3>For lunch you will be having:</h3>
-                <p id="lunch-combo"></p>
+                <h3 id="footerTitle"></h3>
+                <p id="footerSub"></p>
             </footer>
         </div>
 
