@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/brydonholsey/p3-holsey-brydon#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "css-loader": "^3.5.3",
     "html-webpack-plugin": "^4.2.0",
     "style-loader": "^1.2.0",
