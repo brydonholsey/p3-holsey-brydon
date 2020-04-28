@@ -1,11 +1,11 @@
-class LunchGenerator {
-    constructor() {
-        this.lunchOptions = lunchOptions
+export default class LunchGenerator {
+    constructor(lunchOptions) {
+        this.lunchOptions = lunchOptions;
         
     }
 }
 
-const lunchArray = [
+export const lunchArray = [
     {
         entree: 'Burger',
         salad: 'Caesar',
@@ -78,3 +78,21 @@ const lunchArray = [
     }
     
 ];
+
+function sorting() {
+    for (i = lunchArray.length -1; i > 0; i--) {
+        j = Math.floor(Math.random() * i)
+        k = lunchArray[i]
+        lunchArray[i] = lunchArray[j]
+        lunchArray[j] = k
+      }
+}
+
+function addText() {
+    answer.innerHTML = lunchArray[0];
+}
+
+// button.addEventListener('click', lunchGenerator);
+
+console.log(sorting)
+console.log(addText)
