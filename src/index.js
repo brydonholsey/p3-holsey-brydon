@@ -26,12 +26,13 @@ const template = `
     <button id="generate-button">Generate</button>
     <div id="lunch-boxes">
         <div id="box-one">
-            <img src="images/icon-entree.png" alt="Entree Icon" title="Entree Icon">
+            <img src="../images/icon-entree.png" alt="Entree Icon" title="Entree Icon">
             <p>Entreé</p>
+            hello
             <h3 id="entree-type"></h3>
         </div>
         <div id="box-two">
-            <img src="images/icon-salad.png" alt="Salad Icon" title="Salad Icon">
+            <img src="../images/icon-salad.png" alt="Salad Icon" title="Salad Icon">
             <p>Salad</p>
             <h3 id="salad-type"></h3>
         </div>
