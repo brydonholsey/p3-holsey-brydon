@@ -1,14 +1,14 @@
 import './main.css';
-import './modules/header.js';
+import Header from './modules/header.js'
 
 class App {
 
-    constructor() {
-        this.renderTemplate();
+    constructor(lunchApp) {
+        this.lunchApp = lunchApp;
     }
+};
 
-    renderTemplate() {
-        const template = `
+const template = `
             <header>
                 <h1 id="headerTitle"></h1>
                 <h2 id="headerSub"></h2>
@@ -30,8 +30,5 @@ class App {
                 <p id="footerSub"></p>
             </footer>
             `;
-            document.body.innerHTML = template;
-
-    }
-};
+document.body.innerHTML = template;
 
