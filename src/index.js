@@ -2,7 +2,7 @@ import './main.css';
 import { headerContent } from './modules/header.js'
 import { lunchArray } from './modules/lunch-generator.js'
 import { footerContent } from './modules/footer.js'
-import EntreeImage from './images/icon-entree.png';
+import EntreeImage from './images/icon-entree.png'
 
 class App {
     constructor(header, body, footer) {
@@ -27,7 +27,7 @@ const template = `
     <div id="generate-button"><button id="button">Generate</button></div>
     <div id="lunch-boxes">
         <div id="box-one">
-            <img src=${EntreeImage} alt="Entree Icon" title="Entree Icon">
+            <img src=./images/icon-entree.png alt="Entree Icon" title="Entree Icon">
             <p>Entreé</p>
             <h3 id="entree-type">${lunchArray[0].entree}</h3>
         </div>
