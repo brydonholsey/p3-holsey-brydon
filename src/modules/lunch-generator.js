@@ -78,6 +78,14 @@ export const lunchArray = [
     }
     
 ];
+
+export const lunchIcons = [
+    {
+        entreeImage: '/images/icon-entree.png'
+    }
+];
+
+
 const button = document.getElementById('button')
 const meal = document.getElementById('entree-type')
 
