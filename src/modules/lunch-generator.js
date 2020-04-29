@@ -5,6 +5,9 @@
 //     }
 // }
 
+export const button = document.getElementById('button');
+export const entreeType = document.getElementById('entree-type');
+
 export const lunchArray = [
     {
         entree: 'Burger',
@@ -79,15 +82,8 @@ export const lunchArray = [
     
 ];
 
-export const lunchIcons = [
-    {
-        entreeImage: '/images/icon-entree.png'
-    }
-];
 
 
-const button = document.getElementById('button')
-const meal = document.getElementById('entree-type')
 
 function sorting() {
     for (i = lunchArray.length -1; i > 0; i--) {
@@ -99,9 +95,17 @@ function sorting() {
 }
 
 function addText() {
-    meal.innerHTML = lunchArray[0].entree;
+    entreeType.innerHTML = lunchArray[0].entree;  
+
 }
 
 // button.addEventListener('click', sorting);
 // button.addEventListener('click', addText);
+
+export const lunchIcons = [
+    {
+        entreeImage: '/images/icon-entree.png'
+    }
+];
+
 

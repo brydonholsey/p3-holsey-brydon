@@ -24,7 +24,7 @@ class App {
                     <div id="box-one">
                         <img src=${lunchIcons[0].entreeImage} alt="Entree Icon" title="Entree Icon">
                         <p>Entreé</p>
-                        <h3 id="entree-type">${lunchArray[0].entree}</h3>
+                        <h3 id="entree-type"></h3>
                     </div>
                     <div id="box-two">
                         <img src="../images/icon-salad.png" alt="Salad Icon" title="Salad Icon">
