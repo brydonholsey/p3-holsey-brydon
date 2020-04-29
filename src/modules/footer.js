@@ -1,3 +1,5 @@
+// import { lunchArray } from './modules/lunch-generator.js'
+
 export default class Footer {
     constructor(footerTitle, footerSub) {
         this.footerTitle = footerTitle;
@@ -5,5 +7,5 @@ export default class Footer {
     }
 }
 
-
-export const footerContent = new Footer ('For lunch you will be having:', 'this is just some text');
+// export let mealEntry = lunchArray[0].entree;
+export const footerContent = new Footer ('For lunch you will be having:', 'mealEntry');

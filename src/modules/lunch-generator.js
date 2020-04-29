@@ -1,9 +1,9 @@
-export default class LunchGenerator {
-    constructor(lunchOptions) {
-        this.lunchOptions = lunchOptions;
+// export default class LunchGenerator {
+//     constructor(lunchOptions) {
+//         this.lunchOptions = lunchOptions;
         
-    }
-}
+//     }
+// }
 
 export const lunchArray = [
     {
@@ -78,6 +78,8 @@ export const lunchArray = [
     }
     
 ];
+const button = document.getElementById('button')
+const meal = document.getElementById('entree-type')
 
 function sorting() {
     for (i = lunchArray.length -1; i > 0; i--) {
@@ -89,10 +91,9 @@ function sorting() {
 }
 
 function addText() {
-    answer.innerHTML = lunchArray[0];
+    meal.innerHTML = lunchArray[0].entree;
 }
 
-// button.addEventListener('click', lunchGenerator);
+// button.addEventListener('click', sorting);
+// button.addEventListener('click', addText);
 
-console.log(sorting)
-console.log(addText)

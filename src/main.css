@@ -28,6 +28,10 @@ header {
     justify-content: center;
 }
 
+main {
+    padding: 50px 0;
+}
+
 h1 {
     font-family: 'Lobster', cursive;
     font-size: 3rem;
@@ -39,5 +43,85 @@ h2 {
 }
 
 button {
+    background-color: #4EB0D5;
+    border: 2px solid #4EB0D5;
+    padding: 15px 30px;
+    border-radius: 25px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: .1rem;
+}
+
+#lunch-boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+}
+
+#lunch-boxes p {
+    text-transform: uppercase;
+    padding: 15px 0;
+}
+
+#box-one {
+    color: #E16268;
+}
+
+#box-two {
+    color: #E48E44;
+}
+
+#box-three {
+    color: #98A841;
+}
+
+#box-four {
+    color: #ECCB45;
+}
+
+#box-five {
+    color: #4EB0D5;
+}
+
+#lunch-boxes div {
+    padding:30px;
+}
+
+#lunch-boxes h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 1.7rem;
+}
+
+#lunch-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    background-color: #ECCB45;
+    height: 15vh;
+    justify-content: center;
+}
+
+@media (min-width: 800px) {
+    main {
+        padding: 100px 0;
+    }
+
+    #lunch-boxes {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
 }
