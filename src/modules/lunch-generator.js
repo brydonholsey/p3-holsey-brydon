@@ -1,12 +1,3 @@
-// export default class LunchGenerator {
-//     constructor(lunchOptions) {
-//         this.lunchOptions = lunchOptions;
-        
-//     }
-// }
-
-
-// export const entreeType = document.getElementById('entree-type');
 
 class LunchGenerator {
     constructor () {
@@ -83,6 +74,8 @@ class LunchGenerator {
             }
             
         ];
+
+        // this.footerText = this.lunchArray;
         
     }
 
@@ -98,13 +91,16 @@ class LunchGenerator {
     addText() {
         
         window.onload = () => {
+            // this.footerText = this.lunchArray;
             document.getElementById('button').addEventListener('click', () => {
                 this.sorting();
                 console.log(this.lunchArray[0]);
                 document.getElementById('entree-type').innerHTML = this.lunchArray[0].entree; 
                 document.getElementById('salad-type').innerHTML = this.lunchArray[0].salad; 
                 document.getElementById('fruit-type').innerHTML = this.lunchArray[0].fruit; 
+                // this.footerText = this.lunchArray;
             });  
+            
         }
     }
 }

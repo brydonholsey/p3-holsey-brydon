@@ -1,12 +1,15 @@
+//imports styles, header, body, and footer content
 import './main.css';
 import { headerContent } from './modules/header.js'
 import { lunchGenerator } from './modules/lunch-generator.js'
 import { footerContent } from './modules/footer.js'
-//import { lunchIcons } from './modules/lunch-generator.js'
 
+
+//Creates the app
 class App {
     constructor() {
         lunchGenerator.addText();
+        // footerContent.addFooterText();
     }
 
     renderTemplate() {
@@ -25,22 +28,22 @@ class App {
                         <h3 id="entree-type"></h3>
                     </div> 
                     <div id="box-two">
-                        <img src="" alt="Salad Icon" title="Salad Icon">
+                        <img src="./images/icon-salad.png" alt="Salad Icon" title="Salad Icon">
                         <p>Salad</p>
                         <h3 id="salad-type"></h3>
                     </div>
                     <div id="box-three">
-                        <img src="" alt="Fruit Icon" title="Fruit Icon">
+                        <img src="./images/icon-fruit.png" alt="Fruit Icon" title="Fruit Icon">
                         <p>Fruit</p>
                         <h3 id="fruit-type"></h3>
                     </div>
                     <div id="box-four">
-                        <img src="" alt="Drink Icon" title="Drink Icon">
+                        <img src="./images/icon-drink.png" alt="Drink Icon" title="Drink Icon">
                         <p>Drink</p>
                         <h3 id="drink-type"></h3>
                     </div>
                     <div id="box-five">
-                        <img src="" alt="Dessert Icon" title="Dessert Icon">
+                        <img src="./images/icon-dessert.png" alt="Dessert Icon" title="Dessert Icon">
                         <p>Dessert</p>
                         <h3 id="dessert-type"></h3>
                     </div>
@@ -54,9 +57,12 @@ class App {
             </footer>
                         `;
             document.body.innerHTML = template;
+            
       }
+ 
 }
 
+//Creates new app with the above template
 const lunchApp = new App();
 lunchApp.renderTemplate();
 
