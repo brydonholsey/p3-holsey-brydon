@@ -96,6 +96,10 @@ button {
     font-size: 1.7rem;
 }
 
+#lunch-boxes img {
+    max-width: 75px;
+}
+
 #lunch-section {
     display: flex;
     flex-direction: column;
