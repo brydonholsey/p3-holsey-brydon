@@ -95,7 +95,8 @@ function sorting() {
 }
 
 function addText() {
-    entreeType.innerHTML = lunchArray[0].entree;  
+    entreeType.innerHTML = lunchArray[0].entree; 
+     
 
 }
 
