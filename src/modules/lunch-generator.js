@@ -74,11 +74,9 @@ class LunchGenerator {
             }
             
         ];
-
-        // this.footerText = this.lunchArray;
         
     }
-
+//randomizes lunches
     sorting() {
         for (let i = this.lunchArray.length -1; i > 0; i--) {
             const j = Math.floor(Math.random() * i)
@@ -87,36 +85,20 @@ class LunchGenerator {
             this.lunchArray[j] = k
           }
     }
-    
+ //inserts text from 'sorting' function on button click    
     addText() {
-        
         window.onload = () => {
-            // this.footerText = this.lunchArray;
             document.getElementById('button').addEventListener('click', () => {
                 this.sorting();
-                console.log(this.lunchArray[0]);
                 document.getElementById('entree-type').innerHTML = this.lunchArray[0].entree; 
                 document.getElementById('salad-type').innerHTML = this.lunchArray[0].salad; 
                 document.getElementById('fruit-type').innerHTML = this.lunchArray[0].fruit; 
-                // this.footerText = this.lunchArray;
+                document.getElementById('drink-type').innerHTML = this.lunchArray[0].drink; 
+                document.getElementById('dessert-type').innerHTML = this.lunchArray[0].dessert; 
             });  
             
         }
     }
 }
+
 export const lunchGenerator = new LunchGenerator();
-
-
-
-
-
-// button.addEventListener('click', sorting);
-// button.addEventListener('click', addText);
-
-// export const lunchIcons = [
-    // {
-        // entreeImage: '/images/icon-entree.png'
-    // }
-// ];
-
-

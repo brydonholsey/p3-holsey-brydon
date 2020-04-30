@@ -6,5 +6,3 @@ export default class Header {
 }
 
 export const headerContent = new Header ('Are You Hungry?', 'click the button below to generate your lunch')
-
-console.log (headerContent)

@@ -9,7 +9,6 @@ import { footerContent } from './modules/footer.js'
 class App {
     constructor() {
         lunchGenerator.addText();
-        // footerContent.addFooterText();
     }
 
     renderTemplate() {
@@ -52,8 +51,8 @@ class App {
             </div>
             </main>
             <footer>
-            <h3 id="footerTitle">${footerContent.footerTitle}</h3>
-            <p id="footerSub">${footerContent.footerSub}</p>
+                <h3 id="footerTitle">${footerContent.footerTitle}</h3>
+                <p id="footerSub">${footerContent.footerSub}</p>
             </footer>
                         `;
             document.body.innerHTML = template;
